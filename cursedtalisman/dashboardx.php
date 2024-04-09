@@ -10,9 +10,9 @@ if (!isset($_SESSION['user_id']) || !isset($_SESSION['username'])) {
 }
 
 // Database connection parameters
-$servername = "192.168.1.99"; // Change this to your database server hostname
-$username = "kiddiekeyk"; // Change this to your database username
-$password = "anonymouswhite143"; // Change this to your database password
+$servername = ""; // Change this to your database server hostname
+$username = ""; // Change this to your database username
+$password = ""; // Change this to your database password
 $database = "db_account"; // Change this to your database name
 
 // Create connection
