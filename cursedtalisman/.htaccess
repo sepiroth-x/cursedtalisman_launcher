@@ -1,0 +1,7 @@
+RewriteEngine On
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# Redirect /contents to the root homepage
+RewriteRule ^contents/?$ /cursedtalisman/ [R=301,L]
